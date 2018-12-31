@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/zivkovicmilos/BPlusTree/master/img/BannerImg.jpg)
+![Banner](https://raw.githubusercontent.com/zivkovicmilos/TSP/master/img/BannerImg.jpg)
 
 # Project Description
 The goal of this homework project was to solve the Traveling Salesman problem using the following methods:
@@ -35,3 +35,9 @@ Of course, this heuristic doesn't produce the truly optimal result, as opposed t
 ## Form Tour (All Permutations)
 A recursive method to generate all tours between a finite number of cities (max 10), and pick out the best one. This method surely produces the shortest path for the traveling salesman.
 The user specifies an *n* number of cities he wants the salesman to travel to. After that, the program chooses *n* random cities and starts the Brute Force algorithm (*bruteCalc*).
+When the function finishes, the brute solution tour is printed.
+## Print Tour
+Prints out the Nearest Neighbor tour.
+## Delete Tour
+Deletes a tour the user specified. 
+Previous tours are automatically deleted when the user chooses the option to generate a new Nearest Neighbor or Brute Method tour.
